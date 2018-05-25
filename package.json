@@ -1,12 +1,22 @@
 {
-  "name": "unturned-icon-renamer",
+  "name": "unturned-extract-id",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Extract the item IDs from Extra/Icons folder.",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app --exec babel-node",
+    "start": "babel-node dist/app.js",
+    "build": "babel src -d dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Lucas Dias",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-cli": "^6.26.0",
+    "signale": "^1.1.0"
+  }
 }
