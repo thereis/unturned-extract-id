@@ -3,7 +3,7 @@ This application will get the ID and rename all the files inside the `Extras/Ico
 
 
 ## Demonstration
-[Demo](https://i.imgur.com/2UAuN2u.gif)
+![Demo](https://i.imgur.com/2UAuN2u.gif)
 
 ### Instalation
 Clone or download the release version. Unzip it and inside the folder just run:
