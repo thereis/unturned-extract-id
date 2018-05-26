@@ -2,7 +2,7 @@
 This application will get the ID and rename all the files inside the `Extras/Icons` folder.
 
 
-## Demonstration
+### Demonstration
 ![Demo](https://i.imgur.com/2UAuN2u.gif)
 
 ### Instalation
